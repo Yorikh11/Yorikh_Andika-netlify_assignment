@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Assignment 3</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="p-1">
+        <section class="bg-teal-400 grid-rows-3 gap-3 ">
+            <nav>
+                <ul class="flex justify-end grid-cols-3 gap-3">
+                    <li class="px-3 "> <a href="#about me">About Me</a></li>
+                    <li class="px-3"> <a href="#education">Education</a></li>
+                    <li class="px-3"> <a href="#experience">Organization</a></li>
+                    <li class="px-3"> <a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1 class="text-center pt-10 text-3xl font-semibold">Hello, I'm Yorikh Andika</h1>
+            </div>
+            <div>
+                <img src="fotodiri.jpeg" alt="myfoto" class=" p-10 w-60 object-center max-w-full mx-auto"/>
+            </div>
+            <div>
+                <p class="pt-1.5 text-center py-10 font-semibold ">Selamat Datang di website portofolio saya</p>
+            </div>
+        </section>
+        <article>
+            <div class="flex flex-wrap">
+                <h2 id="about me" class="px-4 text-2xl p-5 w-auto flex-none w-6/12 lg:w-1/2 ">About Me</h1>
+                <p class=" px-4 w-auto flex-1 p-5 lg:w-1/2 ">Saya adalah seorang mahasiswa studi independen batch ke-3 di Ruangguru dengan
+                    mengambil program Backend Engineering. Saya memiliki minat dibidang IT dan Teknologi masa kini,
+                    Dan saya juga memiliki pengalaman berorganisasi dikampus maupun diluar kampus.
+                </p>
+            </div>
+            <div class="flex flex-wrap">
+                <h2 id="experience" class=" px-4 text-2xl w-auto p-5 flex-none w-6/12 lg:w-1/2">Education</h2>
+                <ul class="px-4 w-auto p-5 flex-1 lg:w-1/2">
+                    <li><h3>MAN Tanjungbalai</h3></li>
+                    <p class="pl-4">Jurusan IPA</p>
+                    <li><h3 class="pt-5">Universitas Malikussaleh</h3></li>
+                    <p class="pl-4">Prodi Sistem Informasi</p>
+                </ul>
+            </div>
+            <div class="flex flex-wrap">
+                <h2 class="px-4 text-2xl p-5 w-auto flex-none w-6/12 lg:w-1/2">Organization</h2>
+                <ul class="px-4 w-auto p-5 flex-1 lg:w-1/2">
+                    <li><h3>Ikatan Mahasiswa Tanjungbalai (IMATAB) </h3></li>
+                    <li><h3 class="pt-5">Himpunan Mahasiswa Sistem Informasi (HIMASI)</h3></li>
+                    
+                </ul>
+            </div>
+            <footer class="flex flex-wrap">
+                    <h2 id="contact" class="px-4 text-2xl p-5 w-auto flex-none w-6/12 lg:w-1/2">Contact</h2>
+                <form class="px-4 w-auto p-5 flex-1 lg:w-1/2">
+                    <div>
+                        <label  for="nama">Nama</label>
+                        <input id="nama" type="text"/>
+                    </div>
+                    <div>
+                        <label for="pesan">Pesan</label>
+                        <textarea class= "col=14" rows="3" id="pesan"></textarea>
+                    </div>
+                    <div class="pt-5">
+                        <button type="button">Submit</button>
+                    </div>
+                </form>
+            </footer>
+        </article>
+
+    </body>
+
+</html>
